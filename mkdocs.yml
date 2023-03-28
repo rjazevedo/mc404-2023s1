@@ -1,0 +1,68 @@
+site_name: MC404 - Organização Básica de Computadores e Linguagem de Montagem
+theme: 
+  name: material
+  highlightjs: true
+  language: pt-BR
+  features:
+    - content.code.copy
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - navigation.footer
+copyright: Copyright &copy; 2023 Rodolfo Azevedo
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format  
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/@rjazevedo
+    - icon: fontawesome/brands/github
+      link: https://github.com/rjazevedo
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rjazevedo
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/rjazevedo
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+  - Apresentação : index.md
+  - Calendário: calendario.md
+  - Aulas:
+    - Apresentação da Disciplina: slides/apresentacao.md
+    - Introdução ao Assembly do RISC-V - Parte I: slides/assembly01.md
+    - Introdução ao Assembly do RISC-V - Parte II: slides/assembly02.md
+    - Representação numérica: slides/binario01.md
+  - Laboratórios:
+    - Laboratório 4: lab04.md
+    - Laboratório 3: lab03.md
+    - Laboratório 2: lab02.md
+    - Laboratório 1: lab01.md  

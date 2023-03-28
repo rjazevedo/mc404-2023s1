@@ -71,5 +71,6 @@ Veja o [calendário](calendario.md) da disciplina ou o menu dessa página.
 
 Veja o [calendário](calendario.md) da disciplina.
 
+## Alunos matriculados
 
-
+A listagem de alunos matriculados extraída da DAC está disponível [aqui](alunos.md).

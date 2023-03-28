@@ -32,6 +32,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
+  - tables
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -53,6 +54,12 @@ extra:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+plugins:
+  - search
+  - pdf-export:
+      enabled_if_env: ENABLE_PDF_EXPORT
+  - table-reader
+  - autolinks
 nav:
   - Apresentação : index.md
   - Calendário: calendario.md

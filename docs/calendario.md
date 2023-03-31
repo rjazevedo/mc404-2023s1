@@ -4,18 +4,18 @@
 |---|---|
 |sex, 03/mar|[Laboratório 1 - Visão geral do assembly do RISC-V](../lab01)|
 |seg, 06/mar|[Laboratório 1 - Visão geral do assembly do RISC-V](../lab01)|
-|qua, 08/mar|[Apresentação da Disciplina](../slides/apresentacao) / Introdução ao Assembly do RISC-V: [Parte 1](../slides/assembly01) e [Parte 2](../slides/assembly02) |
+|qua, 08/mar|[Apresentação da Disciplina](../slides/apresentacao) ([PDF](../slides/apresentacao.pdf)/[HTML](../slides/apresentacao.html)) / Introdução ao Assembly do RISC-V: [Parte 1](../slides/assembly01) ([PDF](../slides/assembly01.pdf)/[HTML](../slides/assembly01.html)) e [Parte 2](../slides/assembly02) ([PDF](../slides/assembly02.pdf)/[HTML](../slides/assembly02.html)) |
 |sex, 10/mar|[Laboratório 2 - Instruções de salto](../lab02)|
 |seg, 13/mar|[Laboratório 2 - Instruções de salto](../lab02)|
-|qua, 15/mar|[Introdução ao Assembly do RISC-V - Parte 2](../slides/assembly02) e [Sistemas de Numeração](../slides/binario02) |
+|qua, 15/mar|[Introdução ao Assembly do RISC-V - Parte 2](../slides/assembly02) ([PDF](../slides/assembly02.pdf)/[HTML](../slides/assembly02.html)) e [Sistemas de Numeração](../slides/binario01) ([PDF](../slides/binario01.pdf)/[HTML](../slides/binario01.html)) |
 |sex, 17/mar|[Laboratório 3 - Instruções lógicas](../lab03)|
 |seg, 20/mar|[Laboratório 3 - Instruções lógicas](../lab03)|
-|qua, 22/mar|[Sistemas de Numeração](../slides/binario02)|
+|qua, 22/mar|[Sistemas de Numeração](../slides/binario01) ([PDF](../slides/binario01.pdf)/[HTML](../slides/binario01.html))|
 |sex, 24/mar|[Laboratório 4 - Sistemas de numeração](../lab04)|
 |seg, 27/mar|[Laboratório 4 - Sistemas de numeração](../lab04)|
-|qua, 29/mar| |
-|sex, 31/mar|Laboratório|
-|seg, 03/abr|Laboratório|
+|qua, 29/mar|[Organização Básica de Computadores](../slides/organizacao-basica-de-computadores) ([PDF](../slides/organizacao-basica-de-computadores.pdf)/[HTML](../slides/organizacao-basica-de-computadores.html))|
+|sex, 31/mar|[Laboratório 5 - Instruções de Memória](../lab05)|
+|seg, 03/abr|[Laboratório 5 - Instruções de Memória](../lab05)|
 |qua, 05/abr| |
 |sex, 07/abr|Feriado|
 |seg, 10/abr|Laboratório|

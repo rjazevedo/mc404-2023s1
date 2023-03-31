@@ -2,7 +2,7 @@
 marp: true
 paginate: true
 _paginate: false
-footer: 'MC404 - Organização Básica de Computadores e Linguagem de Montagem'
+footer: 'MC404 - Organização Básica de Computadores e Linguagem de Montagem - Rodolfo Azevedo - CC BY-SA 4.0'
 headingDivider: 2
 ---
 ![](riscv.png)

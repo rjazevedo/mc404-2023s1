@@ -2,7 +2,7 @@
 marp: true
 paginate: true
 _paginate: false
-footer: 'MC404 - Organização Básica de Computadores e Linguagem de Montagem'
+footer: 'MC404 - Organização Básica de Computadores e Linguagem de Montagem - Rodolfo Azevedo - CC BY-SA 4.0'
 headingDivider: 2
 ---
 # Organização Básica de Computadores
@@ -143,11 +143,36 @@ sw t3, t0, 8   # escreve em v[2]
 
 * *char*, *short*, *int* e *long* também podem ser unsigned
 
+## Classificação de memórias
+
+* As memórias podem ser classificadas em relação ao uso que se faz delas:
+  * **Principal**: Fica próxima ao computador e armazena dados e programas para serem executados/utilizados
+  * **Secundária**: Armazena dados e programas que precisam ser carregados para a memória principal para serem executados/utilizados.
+* Elas também podem ser classificadas em relação à capacidade de reter dados:
+  * **Voláteis**: Perdem os dados quando a energia é desligada
+  * **Não voláteis**: Mantém os dados mesmo quando a energia é desligada
+
+## Tipos de Memória
+
+* **RAM**: Memória de acesso aleatório volátil. Utilizada como memória principal dos dispositivos computacionais. Tipicamente têm dois tipos:
+  * **SRAM**: Memória estática, mais rápida mas mais cara. Geralmente utilizada em pequena quantidade (em registradores, caches)
+  * **DRAM**: Memória dinâmica, mais lenta e mais barata. Geralmente utilizada em grande quantidade (memória principal), como DDR4 e DDR5
+* **ROM**: Memória de acesso aleatório não volátil. Utilizada como memória secundária dos dispositivos computacionais. O caso mais comum é o da memória flash, a mesma do seu pendrive, mas que também serve para armazenar dados no seu celular e notebook (SSD).
+* **Disco**: Para maiores quantidades de armazenamento, existem os discos rígidos (HDD).
+
+## E quanto aos periféricos?
+
+* Do ponto de vista do processador, periféricos são apenas outros itens armazenados numa região específica de memória
+* O processador não sabe se o dado está na memória principal ou em um periférico
+  * O processador sabe apenas enviar um endereço e um comando de leitura
+  * Se o endereço corresponder à memória, a memória será ativada e retornará o dado
+  * Se o endereço corresponder a um periférico, o periférico será ativado e retornará o dado
+* Quem tem essa informação é o programador
+* O periférico pode ficar atrás da proteção do sistema operacional assim como o sistema de memória
 
 ## Fluxo de desenvolvimento de código
 
 ![](compilacao.png)
-
 
 ## RISC vs CISC
 
@@ -168,13 +193,3 @@ sw t3, t0, 8   # escreve em v[2]
   Um programa precisa de, no mínimo, uma thread. Essa é a menor unidade de execução possível. Um núcleo de processador pode ser capaz de executar multithread, o que significa que ele é capaz de executar múltiplas threads simultaneamente.
 
 > Nenhum programa de MC102 que você fez era multithread! :astonished:
-
-## Roteiro
-
-* Organização básica de computadores
-* Ciclo de instrução
-* Registradores
-* Memória
-* Periféricos
-* Endereçamento
-* Ciclo de desenvolvimento de código

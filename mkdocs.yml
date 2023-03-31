@@ -1,4 +1,9 @@
 site_name: MC404 - Organização Básica de Computadores e Linguagem de Montagem
+site_author: Rodolfo Azevedo
+site_description: Material didático da disciplina MC404 do Instituto de Computação da Unicamp
+repo_name: mc404-2023s1
+repo_url: https://github.com/rjazevedo/mc404-2023s1
+copyright: CC BY-SA 4.0 - Rodolfo Azevedo
 theme: 
   name: material
   highlightjs: true
@@ -12,7 +17,6 @@ theme:
     - toc.integrate
     - navigation.top
     - navigation.footer
-copyright: Copyright &copy; 2023 Rodolfo Azevedo
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -45,12 +49,14 @@ extra:
       link: https://www.instagram.com/rjazevedo
   palette: 
     # Palette toggle for light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
     # Palette toggle for dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -68,7 +74,9 @@ nav:
     - Introdução ao Assembly do RISC-V - Parte I: slides/assembly01.md
     - Introdução ao Assembly do RISC-V - Parte II: slides/assembly02.md
     - Representação numérica: slides/binario01.md
+    - Organização Básica de Computadores: slides/organizacao-basica-de-computadores.md
   - Laboratórios:
+    - Laboratório 5: lab05.md
     - Laboratório 4: lab04.md
     - Laboratório 3: lab03.md
     - Laboratório 2: lab02.md

@@ -64,3 +64,10 @@ Agora é hora de imprimir um número em hexadecimal. Para isso, você precisa se
 
 ??? info "Dica"
     Você consegue separar os dígitos de hexadecimal com uma máscara de 4 bits ativos fazendo um AND, de forma bem similar à que fez para imprimir os números em binário (só que agora com 4 bits).
+
+## Conclusões
+
+Você desenvolveu programas que manipulam caracteres, passando de minúscula para maiúscula e também conseguiu converter números em hexadecimal!
+
+!!! success "Resumo"
+    Parecia difícil no início, não? Agora você já sabe que caracteres são apenas códigos e que você pode manipula-los como números passando de minúscula para maiúscula e vice-versa. Além disso, aprendeu a imprimir números em hexadecimal, que é uma representação mais compacta. 

@@ -65,6 +65,5 @@ Você também já sabe como testar um bit específico de um número utilizando a
 
 Você desenvolveu programas um pouco mais complexos, que manipulam bits para realizar suas tarefas. Você também integrou esses programas em laços para realizar as tarefas mais vezes.
 
-
 !!! success "Resumo"
     Você já sabia que números pares e ímpares são diferentes mas não tinha testado apenas 1 bit para verificá-los. E agora já sabe também uma forma simples de codificar um segredo, através da instrução XOR. Além disso tudo, você conseguiu converter números decimais em binário!

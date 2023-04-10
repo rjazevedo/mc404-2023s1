@@ -82,7 +82,7 @@ Veja que não há definição do tamanho desse vetor, você simplesmente marcou 
     Declare 2 vetores com 5 elementos cada um e some os elementos de mesmo índice dos vetores e guarde o resultado em um terceiro vetor. Imprima a soma de todos os elementos do terceiro vetor na tela.
 
 ??? tip "Dica"
-    Embora não faça distinção no seu código, os dois vetores que serão apenas lidos devem ser declarados na região de memória para dados constantes (`.rodata`) e o vetor que será lido e escrito deve ser declarado na região de memória para dados variáveis (`.data`).
+    Embora não faça distinção no seu código, os dois vetores que serão apenas lidos devem ser declarados na região de memória para dados constantes (`.rodata`) e o vetor que será lido e escrito deve ser declarado na região de memória para dados variáveis (`.data`). **Utilize um laço for para facilitar essa atividade**.
 
 ## E as matrizes?
 
@@ -103,7 +103,7 @@ Essa matriz funciona como um vetor de 12 (=3 x 4) posições e a organização r
 
 ## Strings são vetores de caracteres
 
-Uma string é uma sequência de caracteres. Como, para o simulador, todos os caracteres estão codificados em ASCII, o tamanho necessário para uma string é exatamente a quantidade de caracteres que você quer armazenar nela. Lembre-se que, quando falamos da linguagem C, toda string é terminada com um caracter de código ASCII 0 (representado pelo '\0').
+Uma string é uma sequência de caracteres. Como, para o simulador, todos os caracteres estão codificados em ASCII, o tamanho necessário para uma string é exatamente a quantidade de caracteres que você quer armazenar nela. Lembre-se que, quando falamos da linguagem C, toda string é terminada com um caracter de código ASCII 0 (representado pelo '\0') mas, no nosso simulador, ao ler uma string, os caracteres não lidos serão preenchidos com espaço (caracter de código ASCII 32).
 
 Você pode, então, declarar uma string declarando um vetor do tamanho relevante.
 

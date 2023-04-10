@@ -16,12 +16,12 @@
 |qua, 29/mar|[Organização Básica de Computadores](../slides/organizacao-basica-de-computadores) ([PDF](../slides/organizacao-basica-de-computadores.pdf)/[HTML](../slides/organizacao-basica-de-computadores.html))|
 |sex, 31/mar|[Laboratório 5 - Instruções de Memória](../lab05)|
 |seg, 03/abr|[Laboratório 5 - Instruções de Memória](../lab05)|
-|qua, 05/abr| |
+|qua, 05/abr|[Funções](../slides/assembly03) ([PDF](../slides/assembly03.pdf)/[HTML](../slides/assembly03.html)) |
 |sex, 07/abr|Feriado|
-|seg, 10/abr|Laboratório|
+|seg, 10/abr|[Laboratório 6 - Funções](../lab06)|
 |qua, 12/abr| |
-|sex, 14/abr|Laboratório|
-|seg, 17/abr|Laboratório|
+|sex, 14/abr|[Laboratório 6 - Funções](../lab06)|
+|seg, 17/abr|[Laboratório 6 - Funções](../lab06)|
 |qua, 19/abr|Aula de Dúvidas |
 |sex, 21/abr|Feriado|
 |seg, 24/abr|Laboratório|

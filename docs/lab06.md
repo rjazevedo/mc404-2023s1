@@ -15,7 +15,7 @@ A pilha é uma estrutura de dados onde o próximo elemento é inserido no topo e
 No modelo de memória do computador, a pilha sempre cresce em direção a endereços menores. Então, o registrador que aponta para o topo da pilha, o `sp`, começa com um valor alto e vai diminuindo conforme mais elementos são agregados à pilha. É sua responsabilidade fazer os ajustes necessários tanto no `sp` quando nas leituras e escritas na pilha. O `sp` aponta sempre para o último elemento que foi colocado na pilha. Veja o código abaixo da função `void MultiplicaVetor(unsigned N, unsigned *v, unsigned fator)`, que recebe o número N de elementos do vetor, o vetor e um fator como parâmetros. A função multiplica todos os elementos do vetor pelo fator utilizando a função `int Multiplica(unsigned x, unsigned y)` , que não será mostrada aqui.
 
 ```mipsasm
-ImprimeNumero:
+MultiplicaVetor:
     # Movimenta o apontador da pilha 4 posicoes para baixo (16 bytes) e guarda 4 registradores na pilha
     addi sp, sp, -16
     sw   s0, sp, 12
@@ -24,8 +24,8 @@ ImprimeNumero:
     sw   ra, sp, 0
 
     mv   s0, a0
-    mv   s1, a0
-    mv   s2, a0
+    mv   s1, a1
+    mv   s2, a2
 
 for:
     beq  s0, zero, fim
@@ -81,7 +81,7 @@ O procedimento reverso deve ser utilizado no encerramento da função. Você tam
     É por estarem na pilha que as variáveis locais das funções das linguagens de alto nível não pode ser retornadas por elas. Ao final da função você restaura o `sp` ao valor inicial e aquela posição de memória fica disponível para outros acessos.
 
 !!! note "Atividade 4"
-    Crie uma função `int TamanhoString()` que tenha uma string como variável local. Leia a string do teclado e retorne apenas o tamanho da string. Você deve criar e utilizar também uma função chamada `int strlen(char *s)` para calcular o tamanho da string de acordo com as convenções do simulador.
+    Crie uma função `int TamanhoString()` que tenha uma string como variável local (deve ser guardada na pilha). Leia a string do teclado e retorne apenas o tamanho da string. Você deve criar e utilizar também uma função chamada `int strlen(char *s)` para calcular o tamanho da string de acordo com as convenções do simulador (igual você já fez anteriormente).
 
 ## Funções são chamadas por meio de instruções
 
@@ -96,7 +96,7 @@ typedef struct {
 } Operacao;
 ```
 
-Você pode preencher essa estrutura com o caracter + e o endereço da função de soma e o caracter - e o endereço da função de subtração. Agora, você pode ler um caracter do teclado e chamar a função correspondente ao caracter lido.
+Você pode preencher essa estrutura com o caracter + e o endereço da função de soma e o caracter - e o endereço da função de subtração. Agora, você pode ler um caracter do teclado e chamar a função correspondente ao caracter lido. Considere que a `struct` tenha 8 bytes e deixe 4 reservados para o caracter e 4 para a operação.
 
 !!! note "Atividade 5"
     Implemente uma calculadora com 2 operações: Soma e Subtração. Você deve ler um número, um caracter e outro número do teclado e imprimir o resultado da operação correspondente ao caracter lido. Utilize a estrutura `Operacao` para armazenar as funções.

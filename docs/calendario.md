@@ -19,7 +19,7 @@
 |qua, 05/abr|[Funções](../slides/assembly03) ([PDF](../slides/assembly03.pdf)/[HTML](../slides/assembly03.html)) |
 |sex, 07/abr|Feriado|
 |seg, 10/abr|[Laboratório 6 - Funções](../lab06)|
-|qua, 12/abr| |
+|qua, 12/abr|[Organização Básica de Computadores](../slides/obc02) ([PDF](../slides/obc02.pdf)/[HTML](../slides/obc02.html)) |
 |sex, 14/abr|[Laboratório 6 - Funções](../lab06)|
 |seg, 17/abr|[Laboratório 6 - Funções](../lab06)|
 |qua, 19/abr|Aula de Dúvidas |

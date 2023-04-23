@@ -98,6 +98,9 @@ typedef struct {
 
 Você pode preencher essa estrutura com o caracter + e o endereço da função de soma e o caracter - e o endereço da função de subtração. Agora, você pode ler um caracter do teclado e chamar a função correspondente ao caracter lido. Considere que a `struct` tenha 8 bytes e deixe 4 reservados para o caracter e 4 para a operação.
 
+??? tip "Dica"
+    Para saber o endereço da função, você pode coloca-la no início do seu programa (antes do `main`) e olhar no mapa de memória o endereço onde a primeira instrução está localizada.
+
 !!! note "Atividade 5"
     Implemente uma calculadora com 2 operações: Soma e Subtração. Você deve ler um número, um caracter e outro número do teclado e imprimir o resultado da operação correspondente ao caracter lido. Utilize a estrutura `Operacao` para armazenar as funções.
 

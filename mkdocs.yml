@@ -74,8 +74,10 @@ nav:
     - Introdução ao Assembly do RISC-V - Parte I: slides/assembly01.md
     - Introdução ao Assembly do RISC-V - Parte II: slides/assembly02.md
     - Representação numérica: slides/binario01.md
-    - Organização Básica de Computadores: slides/obc01.md
+    - Organização Básica de Computadores - Parte I: slides/obc01.md
     - Funções: slides/assembly03.md
+    - Organização Básica de Computadores - Parte II: slides/obc02.md
+    - Assembly do RISC-V - Instruções: slides/assembly04.md
   - Laboratórios:
     - Laboratório 6: lab06.md
     - Laboratório 5: lab05.md

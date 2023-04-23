@@ -40,12 +40,11 @@ headingDivider: 2
 
 ## Quatro hormônios que ajudam na sua vida
 
-* **Serotonina** ajuda a equilibrar o humor e dá um impulso benéfico para a vida sexual, apetite, sono, memória, aprendizagem e temperatura. *Cuide de si, tome sol, medite...*
-* **Endorfina** atua como um poderoso analgésico, sendo liberada pelo organismo em situações de dor e estresse. *Pratique exercícios intensos, durma mais, saia com os amigos, banho frio*
-* **Dopamina** é mais conhecida por sua participação no ciclo de recompensa, estimulando nosso cérebro a completar tarefas. *Abrace mais, sol, sexo, relaxamento* 
-* **Ocitocina** tem ligação com reduções de ansiedade e sentimentos de calma e segurança, o que a fez ser classificada como o “hormônio do amor”. *Atingir metas, exercícios físicos, meditação*
+* **Endorfina** atua como um poderoso analgésico, sendo liberada pelo organismo em situações de dor e estresse
+* **Dopamina** ativa em momentos de recompensa como ao cumprir tarefas
+* **Serotonina** ativa quando estamos felizes, em especial em grupos sociais. Tanto para líderes quanto para liderados.
+* **Ocitocina** ativa quando estamos perto de pessoas que amamos. É liberada em momentos de alegria, felicidade e generosidade. *Abrace mais!*
 
-> Cuide-se! Se precisar de ajuda, procure um especialista.
+Assista esse vídeo legal sobre o assunto: https://youtu.be/irhl4OBg0_w
 
 ## Avaliação de Cursos
-

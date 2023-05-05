@@ -162,14 +162,14 @@ ecall
 ```
 
 !!! note "Atividade 5"
-    Experimente desenhar com múltiplas cores no painel. Faça um programa que pinte a tela de branco e depois desenhe um quadrado deixando dois pontos brancos em cada borda. Faça esse quadrado trocar de cor múltiplas vezes (você pode adiccionar valores nas cores ou armazenar um conjunto de cores num vetor e troca-las). Veja quanto tempo seu simulador gasta para pintar um quadrado e procure ajustar a velocidade do seu programa.
+    Experimente desenhar com múltiplas cores no painel. Faça um programa que pinte a tela de branco e depois desenhe um quadrado deixando dois uma borda de dois pontos brancos em todos os lados. Faça esse quadrado trocar de cor múltiplas vezes (você pode adiccionar valores nas cores ou armazenar um conjunto de cores num vetor e troca-las). Veja quanto tempo seu simulador gasta para pintar um quadrado e procure ajustar a velocidade do seu programa.
 
 ## Desafio final
 
 O desafio de hoje é simples e nada polêmico. Faça um programa que desenhe a bandeira do seu time preferido de futebol!
 
 !!! note "Atividade 6"
-    Faça um programa que pinte a bandeira do seu time preferido de futebol no display.
+    Faça um programa que pinte a bandeira do seu time preferido de futebol no display. Ou outro símbolo do seu agrado!
 
 ## Conclusões
 

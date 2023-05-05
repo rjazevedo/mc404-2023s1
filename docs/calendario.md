@@ -24,9 +24,9 @@
 |seg, 17/abr|[Laboratório 6 - Funções](../lab06)|
 |qua, 19/abr|Aula de Dúvidas |
 |sex, 21/abr|Feriado|
-|seg, 24/abr|Laboratório|
+|seg, 24/abr|[Laboratório 7 - Novo simulador](../lab07)|
 |qua, 26/abr|Prova 1|
-|sex, 28/abr|Laboratório|
+|sex, 28/abr|[Laboratório 7 - Novo simulador](../lab07)|
 |seg, 01/mai|Feriado|
 |qua, 03/mai| |
 |sex, 05/mai|Laboratório|

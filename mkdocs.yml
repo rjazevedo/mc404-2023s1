@@ -62,10 +62,10 @@ extra:
         name: Switch to light mode
 plugins:
   - search
-  - pdf-export:
-      enabled_if_env: ENABLE_PDF_EXPORT
-  - table-reader
-  - autolinks
+  # - pdf-export:
+  #     enabled_if_env: ENABLE_PDF_EXPORT
+  # - table-reader
+  # - autolinks
 nav:
   - Apresentação : index.md
   - Calendário: calendario.md
@@ -78,7 +78,10 @@ nav:
     - Funções: slides/assembly03.md
     - Organização Básica de Computadores - Parte II: slides/obc02.md
     - Assembly do RISC-V - Instruções: slides/assembly04.md
+    - Codificação de Instruções: slides/assembly05.md
   - Laboratórios:
+    - Laboratório 8: lab08.md
+    - Laboratório 7: lab07.md
     - Laboratório 6: lab06.md
     - Laboratório 5: lab05.md
     - Laboratório 4: lab04.md

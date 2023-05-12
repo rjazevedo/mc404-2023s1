@@ -28,13 +28,13 @@
 |qua, 26/abr|Prova 1|
 |sex, 28/abr|[Laboratório 7 - Novo simulador](../lab07)|
 |seg, 01/mai|Feriado|
-|qua, 03/mai| |
-|sex, 05/mai|Laboratório|
-|seg, 08/mai|Laboratório|
-|qua, 10/mai| |
-|sex, 12/mai|Laboratório|
-|seg, 15/mai|Laboratório|
-|qua, 17/mai| |
+|qua, 03/mai|[Codificação de Instruções](../slides/assembly05) ([PDF](../slides/assembly05.pdf)/[HTML](../slides/assembly05.html))|
+|sex, 05/mai|[Laboratório 8 - Strings](../lab08)|
+|seg, 08/mai|[Laboratório 8 - Strings](../lab08)|
+|qua, 10/mai|[Revisitando pilha e variávies locais](../slides/assembly06) ([PDF](../slides/assembly06.pdf)/[HTML](../slides/assembly06.html)) |
+|sex, 12/mai|[Laboratório 9 - Pilha e Segurança](../lab09)|
+|seg, 15/mai|[Laboratório 9 - Pilha e Segurança](../lab09)|
+|qua, 17/mai|Sem aula nesse dia|
 |sex, 19/mai|Laboratório|
 |seg, 22/mai|Laboratório|
 |qua, 24/mai|Avaliação de curso - não haverá aula|

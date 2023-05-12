@@ -79,7 +79,9 @@ nav:
     - Organização Básica de Computadores - Parte II: slides/obc02.md
     - Assembly do RISC-V - Instruções: slides/assembly04.md
     - Codificação de Instruções: slides/assembly05.md
+    - Revisitando Pilha e Variávies Locais: slides/assembly06.md
   - Laboratórios:
+    - Laboratório 9: lab09.md
     - Laboratório 8: lab08.md
     - Laboratório 7: lab07.md
     - Laboratório 6: lab06.md

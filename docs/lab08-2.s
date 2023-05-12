@@ -4,9 +4,9 @@
 
 .text
 main:
-  li a0, 4
-  la a1, mensagem
-  ecall
+  # li a0, 4
+  # la a1, mensagem
+  # ecall
 
   li a0, 0x130
   ecall

@@ -12,6 +12,8 @@ Serão 15 semanas de aulas, contendo:
 * 2 aulas de dúvidas
 * 11 aulas de conteúdo
 
+Os slides a seguir apresentam uma definição preliminar de tópicos que ainda precisam ser agrupados para compor as aulas.
+
 # Aula 1
 
 * Apresentação da disciplina com regras e avaliação

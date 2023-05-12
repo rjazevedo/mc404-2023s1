@@ -31,7 +31,7 @@ Você pode alocar memória para strings de múltiplas formas, sendo as mais comu
 É sempre importante relembrar que temos apenas sequências de bytes na memória, o uso desses bytes é dado sempre pelo seu programa.
 
 !!! note "Atividade 1"
-  O que o programa abaixo faz? Copie e cole o programa e rode no simulador novo. Você deve ver o resultado na janela de saída. Atente para as chamadas de sistema de impressão de strings. Elas estão imprimindo exatamente o que você desejaria?
+    O que o programa abaixo faz? Copie e cole o programa e rode no simulador novo. Você deve ver o resultado na janela de saída. Atente para as chamadas de sistema de impressão de strings. Elas estão imprimindo exatamente o que você desejaria?
 
 ```mips-asm
 .data
@@ -97,7 +97,7 @@ As strings estão sempre em memória e você precisa utilizar instruções de le
     * A instrução `lbu` lê um byte da memória e coloca no registrador destino. O byte lido é sempre interpretado como um valor sem sinal, não realizando a extensão de sinal que acontece se você utilizar `lb`.
 
 !!! note "Atividade 2"
-   Implemente a função `char * strcpy(char *s1, char *s2)` que copia o conteúdo da string `s2` para `s1`. Faça um programa que declare duas strings e utilize essa função para copiar. Após a cópia, você deve imprimir as duas strings para verificar se a cópia foi feita corretamente.
+    Implemente a função `char * strcpy(char *s1, char *s2)` que copia o conteúdo da string `s2` para `s1`. Faça um programa que declare duas strings e utilize essa função para copiar. Após a cópia, você deve imprimir as duas strings para verificar se a cópia foi feita corretamente.
 
 ??? tip "Dica"
     Se você está cansado de incluir uma outra chamada de sistema para imprimir o caracter de nova linha, você pode incluir o \n ao final da string já na declaração.
@@ -118,7 +118,7 @@ Ao contrário do simulador anterior, agora você precisa ler strings caracter po
 Então, se você quiser ler uma string, você precisa fazer um laço que verifica se tem caracter disponível e, se tiver, lê o caracter e armazena em algum lugar. Você pode armazenar em um vetor de caracteres ou em uma string já alocada. Se você armazenar em um vetor, você precisa ter um contador para saber quantos caracteres já foram lidos. Não se esqueça de colocar um caracter \0 ao final da string.
 
 !!! note "Atividade 3"
-   Implemente a função `char * gets(char *s)` que lê uma string do teclado e a armazena em `s`.
+    Implemente a função `char * gets(char *s)` que lê uma string do teclado e a armazena em `s`.
 
 ## Ler strings pode ser perigoso!
 
@@ -127,7 +127,7 @@ Qual o tamanho máximo que a string do programa anterior pode ter? Seu programa 
 É por esse motivo que é mais comum termos uma versão da função que recebe um tamanho máximo também. Você pode atualizar sua função para receber um segundo parâmetro (`N`) e ler, no máximo, N caracteres? (sua string tem que ter N+1 para conseguir armazenar o \0 também.).
 
 !!! note "Atividade 4"
-   Implemente a função `char * fgets(char *s, int N)` que lê uma string do teclado e a armazena em `s`. A função deve ler, no máximo, `N` caracteres.
+    Implemente a função `char * fgets(char *s, int N)` que lê uma string do teclado e a armazena em `s`. A função deve ler, no máximo, `N` caracteres.
 
 ## Mais funções sobre strings
 
@@ -138,14 +138,14 @@ Agora que você já sabe ler strings, você pode implementar outras funções so
 * `char * strcat(char *s1, char *s2)` que concatena as strings `s1` e `s2` e retorna o resultado em `s1`.
 
 !!! note "Atividade 5"
-   Implemente as funções `strlen`, `strcmp` e `strcat`.
+    Implemente as funções `strlen`, `strcmp` e `strcat`.
 
 ## Desafio final
 
 Agora que você já sabe ler e escrever strings, você pode implementar um programa que lê uma string do teclado e imprime ela invertida. Por exemplo, se o usuário digitar `abcd`, seu programa deve imprimir `dcba`. Você pode implementar uma função `void strrev(char *s)` que recebe uma string e a inverte.
 
 !!! note "Atividade 6"
-   Implemente a função `void strrev(char *s)` que recebe uma string e a inverte. Implemente um programa que lê uma string do teclado e imprime ela invertida.
+    Implemente a função `void strrev(char *s)` que recebe uma string e a inverte. Implemente um programa que lê uma string do teclado e imprime ela invertida.
 
 ## Conclusões
 

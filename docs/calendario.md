@@ -35,22 +35,22 @@
 |sex, 12/mai|[Laboratório 9 - Pilha e Segurança](../lab09)|
 |seg, 15/mai|[Laboratório 9 - Pilha e Segurança](../lab09)|
 |qua, 17/mai|Sem aula nesse dia|
-|sex, 19/mai|Laboratório|
-|seg, 22/mai|Laboratório|
+|sex, 19/mai|[Laboratório 9 - Pilha e Segurança](../lab09)|
+|seg, 22/mai|[Laboratório 9 - Pilha e Segurança](../lab09)|
 |qua, 24/mai|Avaliação de curso - não haverá aula|
-|sex, 26/mai|Laboratório|
-|seg, 29/mai|Laboratório|
-|qua, 31/mai| |
-|sex, 02/jun|Laboratório|
-|seg, 05/jun|Laboratório|
-|qua, 07/jun| |
+|sex, 26/mai|[Laboratório 10 - Alocação de Memória Dinâmica](../lab10)|
+|seg, 29/mai|[Laboratório 10 - Alocação de Memória Dinâmica](../lab10)|
+|qua, 31/mai|[Interação co o Sistema Operacional](../slides/assembly07) ([PDF](../slides/assembly07.pdf)/[HTML](../slides/assembly07.html))|
+|sex, 02/jun|[Laboratório 10 - Alocação de Memória Dinâmica](../lab10)|
+|seg, 05/jun|[Laboratório 10 - Alocação de Memória Dinâmica](../lab10)|
+|qua, 07/jun|[Assembly de outros Processadores](../slides/assembly08) ([PDF](../slides/assembly08.pdf)/[HTML](../slides/assembly08.html))|
 |sex, 09/jun|Feriado|
-|seg, 12/jun|Laboratório|
+|seg, 12/jun|[Laboratório 11 - Revisão](../lab11)|
 |qua, 14/jun|Aula de dúvidas|
-|sex, 16/jun|Laboratório|
-|seg, 19/jun|Laboratório|
+|sex, 16/jun|[Laboratório 11 - Revisão](../lab11)|
+|seg, 19/jun|[Laboratório 11 - Revisão](../lab11)|
 |qua, 21/jun|Prova 2|
-|sex, 23/jun|Laboratório|
+|sex, 23/jun|[Laboratório 11 - Revisão](../lab11)|
 |seg, 26/jun||
 |qua, 28/jun||
 |sex, 30/jun||

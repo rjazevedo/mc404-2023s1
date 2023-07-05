@@ -80,7 +80,11 @@ nav:
     - Assembly do RISC-V - Instruções: slides/assembly04.md
     - Codificação de Instruções: slides/assembly05.md
     - Revisitando Pilha e Variávies Locais: slides/assembly06.md
+    - Interação com Sistema Operacional: slides/assembly07.md
+    - Assembly de Outros Processadores: slides/assembly08.md
   - Laboratórios:
+    - Laboratório 11: lab11.md
+    - Laboratório 10: lab10.md
     - Laboratório 9: lab09.md
     - Laboratório 8: lab08.md
     - Laboratório 7: lab07.md
@@ -90,3 +94,7 @@ nav:
     - Laboratório 3: lab03.md
     - Laboratório 2: lab02.md
     - Laboratório 1: lab01.md  
+  - Atividades:
+    - Atividade 3: atividade03.md
+    - Atividade 2: atividade02.md
+    - Atividade 1: atividade01.md
